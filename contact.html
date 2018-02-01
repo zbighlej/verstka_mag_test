@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <link rel="stylesheet" type="text/css" href="media.css"/>
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="js/bootstrap.min.js"></script>
+      <title>sales point contact</title>
+   </head>
+   <body>
+      <div class="content_wrapp">
+         <!--header-->
+         <header>
+            <a href="#"><img src="img/header_logo.png" alt="logo" class="header_left"></a>
+            <div class="header_right">
+               <div class="shopping_cart"><a href="#">Shopping Cart</a> <span class="span_header_first">now in your cart</span> <span class="span_header_2">0 items</span></div>
+               <form action="get" class="langauge_form">
+                  <p>Langauge:</p>
+                  <!--dropdown_first-->
+                  <div class="btn-group">
+                     <button type="button" class="btn btn-danger" id="btn_header_1">English</button>
+                     <button type="button" class="btn btn-danger dropdown-toggle" id="btn_header_2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     </button>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">first</a></li>
+                        <li><a href="#">second</a></li>
+                        <li><a href="#">third</a></li>
+                     </ul>
+                  </div>
+                  <!--dropdown_second-->
+                  <div class="btn-group margin100">
+                     <button type="button" class="btn btn-danger" id="btn_header_1">US Dollar</button>
+                     <button type="button" class="btn btn-danger dropdown-toggle" id="btn_header_2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     </button>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">first</a></li>
+                        <li><a href="#">second</a></li>
+                        <li><a href="#">thirds</a></li>
+                     </ul>
+                  </div>
+               </form>
+            </div>
+         </header>
+         <!--end header-->
+         <!--nav-->
+         <nav>
+            <ul class="nav_ul">
+               <div class="nav_burger">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">What’s New</a></li>
+                  <li><a href="#">Specials</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#" style="background: none;">Contacts</a></li>
+               </div>
+            </ul>
+            <form action="get" class="nav_form">
+               <input type="button" class="btn_burger" alt="button" onclick="brg()">
+               <input type="text" class="nav_text">
+               <button class="nav_button">
+               </button>
+            </form>
+         </nav>
+         <!--end nav-->
+         <!--aside-->
+         <aside class="left_aside contact_aside">
+            <p class="left_aside_p">Categories</p>
+            <ul>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Sound devices</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Video game consoles</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Cell/mobile/wireless phones</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Home security systems</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Cameras</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Home theater systems</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">TVs</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Computers</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Games/movies/music</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Accessories</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Office</a></li>
+               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">House wears</a></li>
+            </ul>
+            <div class="aside_block_phone">
+               <div class="bg_aside_phone">
+                  <p>HTC Google <br>Nexus One</p>
+                  <span>$206.99</span>
+                  <img class="aside_phone" src="img/aside_phone.png">
+               </div>
+            </div>
+            <p class="left_aside_p left_aside_p2">Manufacturers</p>
+            <form action="#" name="search-aside" class="search_aside_form contact_search_aside_form">
+               <input type="text" name="search-aside" id="search_aside_input" placeholder="Please Select">
+               <button type="submit"><i class="fa fa-caret-down" aria-hidden="true"></i></button>
+            </form>
+         </aside>
+         <!--end aside-->
+         <!--contact-->
+         <div class="content_right_wrapp">
+            <div class="content_right_upper contact_upper">
+               <h3><a href="#">Contact <span>Us</span></a></h3>
+            </div>
+            <div class="contact_form_wrapp">
+               <form action="" class="contact_form">
+                  <p>Full name:</p>
+                  <input type="name" class="contact_input_name">
+                  <p>E-Mail Adress:</p>
+                  <input type="mail" class="contact_input_mail">
+                  <p>Enquiry:</p>
+                  <textarea type="text"  class="contact_input_textarea">
+          </textarea>
+               </form>
+               <div class="contact_lower">
+                  <input type="button" class="button_contact_form" value="Send">
+                  <input type="button" class="button_contact_form" value="Clear">
+               </div>
+            </div>
+         </div>
+         <!--end contact-->
+         <!--__________________SIDER______________________-->
+         <!--footer-->
+         <footer class="footer">
+            <nav class="nav_footer clearfix">
+               <ul>
+                  <li><a href="#">Home</a></li>
+                  <span>|</span>
+                  <li><a href="#">What’s New</a></li>
+                  <span>|</span>
+                  <li><a href="#">Specials</a></li>
+                  <span>|</span>
+                  <li><a href="#">My Account</a></li>
+                  <span>|</span>
+                  <li><a href="#">Contacts</a></li>
+               </ul>
+            </nav>
+            <p class="about_author"><a href="#">Website template</a> designed by TemplateMonster.com    I    <a href="#">3D Models</a> provided by Templates.com</p>
+         </footer>
+      </div>
+      <!--end content wrapp-->
+      <!--live reload-->
+      <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+   </body>
+</html>

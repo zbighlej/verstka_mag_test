@@ -1,0 +1,64 @@
+ 
+/*burger*/
+ @media only screen and (max-width:1199px){
+}
+ @media only screen and (max-width:991px){
+     .btn_burger{
+         cursor: pointer;
+         display: block;
+         margin-top : 13px;
+         margin-right: 6px;
+         padding: 0;
+         width: 28px;
+         height: 23px;
+         float: left;
+         outline: none;
+         border: none;
+         background: url(img/burger_btn.png)no-repeat;
+    }
+     .nav_form{
+         display: inline-block;
+         float: left;
+         margin-left: 25px;
+    }
+     .nav_ul{
+         position: relative;
+         height: 50px;
+    }
+     .nav_burger{
+         display: none;
+         width: 163px;
+         position: absolute;
+         left: -258px;
+         top: 50px;
+         background: #f3f3f3;
+    }
+     .nav_ul li a{
+         background: url(img/img_menu_back.jpg)no-repeat!important;
+         width: 163px;
+         height: 50px;
+    }
+}
+ @media only screen and (max-width:575px){
+     .logo{
+         margin:0 auto;
+         width:226px;
+         display:block;
+    }
+     .header_right, .shopping_cart{
+         margin:0 auto;
+         width:50%;
+         float: none;
+    }
+}
+ @media only screen and (max-width:479px){
+     .langauge_form{
+         width:100%;
+    }
+}
+/*end burger*/
+ @media only screen and (min-width : 992px) {
+     .nav_burger{
+         display: block !important;
+    }
+}
